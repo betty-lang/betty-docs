@@ -12,6 +12,8 @@
         <link rel="prev" href="../conditional/">
       
       
+        <link rel="next" href="../special/">
+      
       
       <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.9">
@@ -213,6 +215,10 @@
     
       
         
+          
+        
+      
+        
       
         
       
@@ -234,8 +240,10 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
-            
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../data-types/" class="md-nav__link ">
+              
   
   <span class="md-ellipsis">
     Data Types
@@ -243,8 +251,14 @@
   </span>
   
 
-            <span class="md-nav__icon md-icon"></span>
-          </label>
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
         
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
@@ -252,6 +266,8 @@
             Data Types
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
             
               
                 
@@ -404,6 +420,12 @@
     
       
         
+          
+        
+      
+        
+      
+        
       
         
       
@@ -423,8 +445,10 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
-            
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
   
   <span class="md-ellipsis">
     Operators
@@ -432,8 +456,14 @@
   </span>
   
 
-            <span class="md-nav__icon md-icon"></span>
-          </label>
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
         
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
@@ -441,6 +471,8 @@
             Operators
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
             
               
                 
@@ -593,10 +625,41 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#prefix-postfix-incrementdecrement" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prefix &amp; postfix increment/decrement
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../special/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Special
+    
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -639,6 +702,15 @@
   <a href="#compound-assignment" class="md-nav__link">
     <span class="md-ellipsis">
       Compound assignment
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prefix-postfix-incrementdecrement" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prefix &amp; postfix increment/decrement
     </span>
   </a>
   
@@ -731,6 +803,48 @@
 <td>Floor divide and assign</td>
 <td><code>x //= 2</code></td>
 <td><code>x = x // 2</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="prefix-postfix-incrementdecrement">Prefix &amp; postfix increment/decrement</h2>
+<table>
+<thead>
+<tr>
+<th>Operator</th>
+<th>Type</th>
+<th>Description</th>
+<th>Example</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>++x</code></td>
+<td>Prefix</td>
+<td>Increments <code>x</code> before evaluation</td>
+<td><code>x = 5; y = ++x;</code></td>
+<td><code>x = 6, y = 6</code></td>
+</tr>
+<tr>
+<td><code>x++</code></td>
+<td>Postfix</td>
+<td>Increments <code>x</code> after evaluation</td>
+<td><code>x = 5; y = x++;</code></td>
+<td><code>x = 6, y = 5</code></td>
+</tr>
+<tr>
+<td><code>--x</code></td>
+<td>Prefix</td>
+<td>Decrements <code>x</code> before evaluation</td>
+<td><code>x = 5; y = --x;</code></td>
+<td><code>x = 4, y = 4</code></td>
+</tr>
+<tr>
+<td><code>x--</code></td>
+<td>Postfix</td>
+<td>Decrements <code>x</code> after evaluation</td>
+<td><code>x = 5; y = x--;</code></td>
+<td><code>x = 4, y = 5</code></td>
 </tr>
 </tbody>
 </table>

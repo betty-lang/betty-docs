@@ -9,10 +9,8 @@
       
       
       
-        <link rel="prev" href="../logical/">
+        <link rel="prev" href="../assignment/">
       
-      
-        <link rel="next" href="../conditional/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -20,7 +18,7 @@
     
     
       
-        <title>Comparative - Betty Docs</title>
+        <title>Special - Betty Docs</title>
       
     
     
@@ -62,7 +60,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#comparative-operators" class="md-skip">
+        <a href="#special-operators" class="md-skip">
           Skip to content
         </a>
       
@@ -98,7 +96,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Comparative
+              Special
             
           </span>
         </div>
@@ -522,19 +520,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../comparative/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -544,7 +533,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -598,10 +586,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../special/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -611,6 +608,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -657,52 +655,29 @@
 
 
 
-<h1 id="comparative-operators">Comparative Operators</h1>
+<h1 id="special-operators">Special Operators</h1>
+<p>Betty provides special operators for handling ranges and list indexing efficiently.  </p>
 <table>
 <thead>
 <tr>
-<th>Operator</th>
+<th>Feature</th>
+<th>Syntax</th>
 <th>Description</th>
-<th>Example</th>
-<th>Result</th>
+<th>Example Usage</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><code>==</code></td>
-<td>Equal to</td>
-<td><code>5 == 5</code></td>
-<td><code>true</code></td>
+<td><strong>Range</strong></td>
+<td><code>[start..end]</code></td>
+<td>Defines a range of values starting from <code>start</code>, incrementing by 1, and stopping before <code>end</code>. Internally calls <code>range()</code> function.</td>
+<td><code>[1..5]</code> → <code>[1, 2, 3, 4]</code></td>
 </tr>
 <tr>
-<td><code>!=</code></td>
-<td>Not equal to</td>
-<td><code>5 != 3</code></td>
-<td><code>true</code></td>
-</tr>
-<tr>
-<td><code>&gt;</code></td>
-<td>Greater than</td>
-<td><code>7 &gt; 4</code></td>
-<td><code>true</code></td>
-</tr>
-<tr>
-<td><code>&lt;</code></td>
-<td>Less than</td>
-<td><code>3 &lt; 8</code></td>
-<td><code>true</code></td>
-</tr>
-<tr>
-<td><code>&gt;=</code></td>
-<td>Greater than or equal to</td>
-<td><code>6 &gt;= 6</code></td>
-<td><code>true</code></td>
-</tr>
-<tr>
-<td><code>&lt;=</code></td>
-<td>Less than or equal to</td>
-<td><code>2 &lt;= 5</code></td>
-<td><code>true</code></td>
+<td><strong>List Indexing</strong></td>
+<td><code>listvar[indexer]</code></td>
+<td>Accesses elements within a list using an index, which can be a number, variable, or function call.</td>
+<td><code>a = [1, 2, 3]; print(a[0]);</code> → <code>1</code></td>
 </tr>
 </tbody>
 </table>
