@@ -4,52 +4,40 @@ The Betty programming language provides a range of data types, each serving a un
 
 <div class="grid cards" markdown>  
 
-- :octicons-number-16: __Number__
+- :octicons-number-16: [__Number__](number.md)
 
     ---
 
     Represents both integers and floating-point values, supporting arithmetic and implicit conversions. 
 
-    [Learn More](number.md)  
-
-- :material-format-text: __String__  
+- :material-format-text: [__String__](string.md)  
     
     ---  
 
     A sequence of characters with intrinsic functions for manipulation and formatting.
 
-    [Learn More](string.md)
-
-- :material-format-letter-case: __Char__  
+- :material-format-letter-case: [__Char__](char.md)  
 
     ---  
 
     A single character, internally stored as an ASCII value, allowing seamless numeric operations. 
 
-    [Learn More](char.md)  
-
-- :fontawesome-solid-toggle-on: __Boolean__  
+- :fontawesome-solid-toggle-on: [__Boolean__](boolean.md)  
 
     ---  
 
     Represents truth values (`true` or `false`) and is used in logical operations and control flow. 
 
-    [Learn More](boolean.md)  
-
-- :fontawesome-solid-list: __List__  
+- :fontawesome-solid-list: [__List__](list.md)  
 
     ---  
 
     A dynamic, ordered collection of values that can hold mixed data types and be manipulated efficiently. 
 
-    [Learn More](list.md)  
-
-- :material-null: __None__  
+- :material-null: [__None__](none.md)  
 
     ---  
 
     A special type representing the absence of a value, often used for implicit returns.  
-
-    [Learn More](none.md)  
 
 </div>
