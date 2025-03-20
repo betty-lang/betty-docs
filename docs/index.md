@@ -1,4 +1,4 @@
-# Introduction
+# Betty Programming Language Documentation
 
 Welcome to the official documentation for Betty, a dynamic programming language designed for prototyping purposes. Betty supports various data types, a standard library, and offers a simple and intuitive syntax.
 
