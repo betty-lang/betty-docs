@@ -1,10 +1,13 @@
-site_name: Betty Docs
+site_name: Betty Programming Language
+site_url: https://betty-lang.org
 
 repo_url: https://github.com/betty-lang/betty
 repo_name: betty-lang/betty
 
 theme:
   name: material
+  logo: assets/images/logo.svg
+  favicon: assets/images/favicon.png
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
@@ -36,6 +39,12 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra_files:
+  - CNAME
 
 nav:
   - Introduction: 'index.md'
