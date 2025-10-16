@@ -2,7 +2,7 @@
 
 Character literals are encased between a pair of single quotes ( `'` ). Empty character literals are not allowed in Betty programs. A character literal may not consist of more than one character, save for escape sequences&mdash;which essentially are single characters.
 
-```
+```python
 x = 'b';    # Valid
 x = '\n';   # Valid, escape sequence
 x = '';     # Will throw, empty character literal

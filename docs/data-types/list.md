@@ -11,7 +11,7 @@ Betty is primarily a prototyping language, that much is certain. Be that as it m
 
 One of the goals in the development process was to provide the programmer with ways to create something more meaningful than your typical "Hello World," even at the cost of potential performance (the unavoidable tree-walk interpreter baggage). Whether they decide to "get their hands dirty" is ultimately left up to the user.
 
-```
+```python
 x = [1, 2, 3, 4];
 x = [1..5];             # Same declaration with range syntax
 x = [[1, 2], [3, 4]];   # Nested lists

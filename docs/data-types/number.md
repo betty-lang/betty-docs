@@ -4,7 +4,7 @@ Betty uses a universal `number` data type to represent both integers and real nu
 
 For instance, there are built-in math functions baked into the language for both `floor()` and `ceil()`. Additionally, there exists an integer division operator ( `//` ), which performs normal double division then floors the result, as is the case in several programming languages (e.g. Python, Ruby).
 
-```
+```python
 12
 0.5
 0.002
