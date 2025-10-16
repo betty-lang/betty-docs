@@ -8,26 +8,28 @@
       
       
       
-        <link rel="canonical" href="https://betty-lang.org/">
+        <link rel="canonical" href="https://betty-lang.org/keywords/variables-and-scope/">
       
       
+        <link rel="prev" href="../functions/">
       
-        <link rel="next" href="data-types/">
+      
+        <link rel="next" href="../../standard-library/">
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
     
     
       
-        <title>Betty Programming Language</title>
+        <title>Variables and Scope - Betty Programming Language</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.342714a4.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.342714a4.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -46,9 +48,9 @@
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/extra.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/extra.css">
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -74,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#betty-language-reference" class="md-skip">
+        <a href="#global" class="md-skip">
           Skip to content
         </a>
       
@@ -90,9 +92,9 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="Betty Programming Language" class="md-header__button md-logo" aria-label="Betty Programming Language" data-md-component="logo">
+    <a href="../.." title="Betty Programming Language" class="md-header__button md-logo" aria-label="Betty Programming Language" data-md-component="logo">
       
-  <img src="assets/images/logo.svg" alt="logo">
+  <img src="../../assets/images/logo.svg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -109,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Introduction
+              Variables and Scope
             
           </span>
         </div>
@@ -235,9 +237,9 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Betty Programming Language" class="md-nav__button md-logo" aria-label="Betty Programming Language" data-md-component="logo">
+    <a href="../.." title="Betty Programming Language" class="md-nav__button md-logo" aria-label="Betty Programming Language" data-md-component="logo">
       
-  <img src="assets/images/logo.svg" alt="logo">
+  <img src="../../assets/images/logo.svg" alt="logo">
 
     </a>
     Betty Programming Language
@@ -261,19 +263,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -284,7 +277,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -326,7 +318,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="data-types/" class="md-nav__link ">
+            <a href="../../data-types/" class="md-nav__link ">
               
   
   
@@ -361,7 +353,7 @@
   
   
     <li class="md-nav__item">
-      <a href="data-types/number/" class="md-nav__link">
+      <a href="../../data-types/number/" class="md-nav__link">
         
   
   
@@ -384,7 +376,7 @@
   
   
     <li class="md-nav__item">
-      <a href="data-types/string/" class="md-nav__link">
+      <a href="../../data-types/string/" class="md-nav__link">
         
   
   
@@ -407,7 +399,7 @@
   
   
     <li class="md-nav__item">
-      <a href="data-types/char/" class="md-nav__link">
+      <a href="../../data-types/char/" class="md-nav__link">
         
   
   
@@ -430,7 +422,7 @@
   
   
     <li class="md-nav__item">
-      <a href="data-types/boolean/" class="md-nav__link">
+      <a href="../../data-types/boolean/" class="md-nav__link">
         
   
   
@@ -453,7 +445,7 @@
   
   
     <li class="md-nav__item">
-      <a href="data-types/list/" class="md-nav__link">
+      <a href="../../data-types/list/" class="md-nav__link">
         
   
   
@@ -476,7 +468,7 @@
   
   
     <li class="md-nav__item">
-      <a href="data-types/none/" class="md-nav__link">
+      <a href="../../data-types/none/" class="md-nav__link">
         
   
   
@@ -536,7 +528,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="operators/" class="md-nav__link ">
+            <a href="../../operators/" class="md-nav__link ">
               
   
   
@@ -571,7 +563,7 @@
   
   
     <li class="md-nav__item">
-      <a href="operators/arithmetic/" class="md-nav__link">
+      <a href="../../operators/arithmetic/" class="md-nav__link">
         
   
   
@@ -594,7 +586,7 @@
   
   
     <li class="md-nav__item">
-      <a href="operators/logical/" class="md-nav__link">
+      <a href="../../operators/logical/" class="md-nav__link">
         
   
   
@@ -617,7 +609,7 @@
   
   
     <li class="md-nav__item">
-      <a href="operators/comparative/" class="md-nav__link">
+      <a href="../../operators/comparative/" class="md-nav__link">
         
   
   
@@ -640,7 +632,7 @@
   
   
     <li class="md-nav__item">
-      <a href="operators/conditional/" class="md-nav__link">
+      <a href="../../operators/conditional/" class="md-nav__link">
         
   
   
@@ -663,7 +655,7 @@
   
   
     <li class="md-nav__item">
-      <a href="operators/assignment/" class="md-nav__link">
+      <a href="../../operators/assignment/" class="md-nav__link">
         
   
   
@@ -686,7 +678,7 @@
   
   
     <li class="md-nav__item">
-      <a href="operators/special/" class="md-nav__link">
+      <a href="../../operators/special/" class="md-nav__link">
         
   
   
@@ -713,6 +705,8 @@
       
   
   
+    
+  
   
   
     
@@ -732,15 +726,15 @@
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="keywords/" class="md-nav__link ">
+            <a href="../" class="md-nav__link ">
               
   
   
@@ -759,7 +753,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             Keywords
@@ -775,7 +769,7 @@
   
   
     <li class="md-nav__item">
-      <a href="keywords/control-flow/" class="md-nav__link">
+      <a href="../control-flow/" class="md-nav__link">
         
   
   
@@ -798,7 +792,7 @@
   
   
     <li class="md-nav__item">
-      <a href="keywords/functions/" class="md-nav__link">
+      <a href="../functions/" class="md-nav__link">
         
   
   
@@ -818,10 +812,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="keywords/variables-and-scope/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Variables and Scope
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -832,6 +846,33 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#global" class="md-nav__link">
+    <span class="md-ellipsis">
+      global
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -881,7 +922,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="standard-library/" class="md-nav__link ">
+            <a href="../../standard-library/" class="md-nav__link ">
               
   
   
@@ -916,7 +957,7 @@
   
   
     <li class="md-nav__item">
-      <a href="standard-library/char/" class="md-nav__link">
+      <a href="../../standard-library/char/" class="md-nav__link">
         
   
   
@@ -939,7 +980,7 @@
   
   
     <li class="md-nav__item">
-      <a href="standard-library/conversion/" class="md-nav__link">
+      <a href="../../standard-library/conversion/" class="md-nav__link">
         
   
   
@@ -962,7 +1003,7 @@
   
   
     <li class="md-nav__item">
-      <a href="standard-library/io/" class="md-nav__link">
+      <a href="../../standard-library/io/" class="md-nav__link">
         
   
   
@@ -985,7 +1026,7 @@
   
   
     <li class="md-nav__item">
-      <a href="standard-library/list/" class="md-nav__link">
+      <a href="../../standard-library/list/" class="md-nav__link">
         
   
   
@@ -1008,7 +1049,7 @@
   
   
     <li class="md-nav__item">
-      <a href="standard-library/math/" class="md-nav__link">
+      <a href="../../standard-library/math/" class="md-nav__link">
         
   
   
@@ -1031,7 +1072,7 @@
   
   
     <li class="md-nav__item">
-      <a href="standard-library/string/" class="md-nav__link">
+      <a href="../../standard-library/string/" class="md-nav__link">
         
   
   
@@ -1093,7 +1134,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="examples/" class="md-nav__link ">
+            <a href="../../examples/" class="md-nav__link ">
               
   
   
@@ -1128,7 +1169,7 @@
   
   
     <li class="md-nav__item">
-      <a href="examples/functions-unary-operations/" class="md-nav__link">
+      <a href="../../examples/functions-unary-operations/" class="md-nav__link">
         
   
   
@@ -1151,7 +1192,7 @@
   
   
     <li class="md-nav__item">
-      <a href="examples/implicit-conversions-arithmetic/" class="md-nav__link">
+      <a href="../../examples/implicit-conversions-arithmetic/" class="md-nav__link">
         
   
   
@@ -1174,7 +1215,7 @@
   
   
     <li class="md-nav__item">
-      <a href="examples/comments-int-division/" class="md-nav__link">
+      <a href="../../examples/comments-int-division/" class="md-nav__link">
         
   
   
@@ -1197,7 +1238,7 @@
   
   
     <li class="md-nav__item">
-      <a href="examples/char-operations/" class="md-nav__link">
+      <a href="../../examples/char-operations/" class="md-nav__link">
         
   
   
@@ -1220,7 +1261,7 @@
   
   
     <li class="md-nav__item">
-      <a href="examples/control-flow-recursion/" class="md-nav__link">
+      <a href="../../examples/control-flow-recursion/" class="md-nav__link">
         
   
   
@@ -1243,7 +1284,7 @@
   
   
     <li class="md-nav__item">
-      <a href="examples/loops-conditionals/" class="md-nav__link">
+      <a href="../../examples/loops-conditionals/" class="md-nav__link">
         
   
   
@@ -1266,7 +1307,7 @@
   
   
     <li class="md-nav__item">
-      <a href="examples/expression-evaluator/" class="md-nav__link">
+      <a href="../../examples/expression-evaluator/" class="md-nav__link">
         
   
   
@@ -1306,8 +1347,23 @@
   
   
   
-    
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#global" class="md-nav__link">
+    <span class="md-ellipsis">
+      global
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -1326,12 +1382,33 @@
   
 
 
-<h1 id="betty-language-reference">Betty Language Reference</h1>
-<p>Welcome to the official documentation for Betty, a dynamic programming language designed for prototyping purposes. Betty supports various data types, has a standard library, and offers a simple and intuitive syntax.</p>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>This documentation is still a work in progress and does not cover all language features (such as lambdas) yet. Please check back for future updates!</p>
-</div>
+  <h1>Variables and Scope</h1>
+
+<h2 id="global"><code>global</code></h2>
+<p>The <code>global</code> keyword is used to declare a global, program-wide variable. Global
+variable declarations in Betty are top-level statements. Global variables cannot
+be assigned to on declaration and cannot be shadowed. They can be declared
+anywhere in the code’s root level, nonetheless it is encouraged to declare them
+at the start of the program.</p>
+<p>The decision to include global variables in a programming language can
+admittedly be rather controversial, as such a design strays away from pure and
+clean programming practices. Care should be exercised, as careless usage of
+globals can be headache-inducing.</p>
+<p>That being said, Betty’s syntax for global variables is very straightforward.</p>
+<div class="highlight"><pre><span></span><code><span class="k">global</span> <span class="n">x</span><span class="p">;</span>           <span class="c1"># Declares ‘x’ as a global variable</span>
+
+<span class="n">func</span> <span class="n">side_effect</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="mi">10</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="n">func</span> <span class="n">main</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span>
+    <span class="n">side_effect</span><span class="p">();</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">);</span>       <span class="c1"># Will print ‘10’</span>
+<span class="p">}</span>
+</code></pre></div>
 
 
 
@@ -1380,10 +1457,10 @@
     
     
       
-      <script id="__config" type="application/json">{"base": ".", "features": ["navigation.indexes"], "search": "assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.indexes"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.56ea9cef.min.js"></script>
+      <script src="../../assets/javascripts/bundle.56ea9cef.min.js"></script>
       
     
   </body>

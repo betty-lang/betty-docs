@@ -8,26 +8,28 @@
       
       
       
-        <link rel="canonical" href="https://betty-lang.org/">
+        <link rel="canonical" href="https://betty-lang.org/standard-library/math/">
       
       
+        <link rel="prev" href="../list/">
       
-        <link rel="next" href="data-types/">
+      
+        <link rel="next" href="../string/">
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
     
     
       
-        <title>Betty Programming Language</title>
+        <title>Math - Betty Programming Language</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.342714a4.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.342714a4.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -46,9 +48,9 @@
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/extra.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/extra.css">
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -74,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#betty-language-reference" class="md-skip">
+        <a href="#math" class="md-skip">
           Skip to content
         </a>
       
@@ -90,9 +92,9 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="Betty Programming Language" class="md-header__button md-logo" aria-label="Betty Programming Language" data-md-component="logo">
+    <a href="../.." title="Betty Programming Language" class="md-header__button md-logo" aria-label="Betty Programming Language" data-md-component="logo">
       
-  <img src="assets/images/logo.svg" alt="logo">
+  <img src="../../assets/images/logo.svg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -109,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Introduction
+              Math
             
           </span>
         </div>
@@ -235,9 +237,9 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Betty Programming Language" class="md-nav__button md-logo" aria-label="Betty Programming Language" data-md-component="logo">
+    <a href="../.." title="Betty Programming Language" class="md-nav__button md-logo" aria-label="Betty Programming Language" data-md-component="logo">
       
-  <img src="assets/images/logo.svg" alt="logo">
+  <img src="../../assets/images/logo.svg" alt="logo">
 
     </a>
     Betty Programming Language
@@ -261,19 +263,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -284,7 +277,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -326,7 +318,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="data-types/" class="md-nav__link ">
+            <a href="../../data-types/" class="md-nav__link ">
               
   
   
@@ -361,7 +353,7 @@
   
   
     <li class="md-nav__item">
-      <a href="data-types/number/" class="md-nav__link">
+      <a href="../../data-types/number/" class="md-nav__link">
         
   
   
@@ -384,7 +376,7 @@
   
   
     <li class="md-nav__item">
-      <a href="data-types/string/" class="md-nav__link">
+      <a href="../../data-types/string/" class="md-nav__link">
         
   
   
@@ -407,7 +399,7 @@
   
   
     <li class="md-nav__item">
-      <a href="data-types/char/" class="md-nav__link">
+      <a href="../../data-types/char/" class="md-nav__link">
         
   
   
@@ -430,7 +422,7 @@
   
   
     <li class="md-nav__item">
-      <a href="data-types/boolean/" class="md-nav__link">
+      <a href="../../data-types/boolean/" class="md-nav__link">
         
   
   
@@ -453,7 +445,7 @@
   
   
     <li class="md-nav__item">
-      <a href="data-types/list/" class="md-nav__link">
+      <a href="../../data-types/list/" class="md-nav__link">
         
   
   
@@ -476,7 +468,7 @@
   
   
     <li class="md-nav__item">
-      <a href="data-types/none/" class="md-nav__link">
+      <a href="../../data-types/none/" class="md-nav__link">
         
   
   
@@ -536,7 +528,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="operators/" class="md-nav__link ">
+            <a href="../../operators/" class="md-nav__link ">
               
   
   
@@ -571,7 +563,7 @@
   
   
     <li class="md-nav__item">
-      <a href="operators/arithmetic/" class="md-nav__link">
+      <a href="../../operators/arithmetic/" class="md-nav__link">
         
   
   
@@ -594,7 +586,7 @@
   
   
     <li class="md-nav__item">
-      <a href="operators/logical/" class="md-nav__link">
+      <a href="../../operators/logical/" class="md-nav__link">
         
   
   
@@ -617,7 +609,7 @@
   
   
     <li class="md-nav__item">
-      <a href="operators/comparative/" class="md-nav__link">
+      <a href="../../operators/comparative/" class="md-nav__link">
         
   
   
@@ -640,7 +632,7 @@
   
   
     <li class="md-nav__item">
-      <a href="operators/conditional/" class="md-nav__link">
+      <a href="../../operators/conditional/" class="md-nav__link">
         
   
   
@@ -663,7 +655,7 @@
   
   
     <li class="md-nav__item">
-      <a href="operators/assignment/" class="md-nav__link">
+      <a href="../../operators/assignment/" class="md-nav__link">
         
   
   
@@ -686,7 +678,7 @@
   
   
     <li class="md-nav__item">
-      <a href="operators/special/" class="md-nav__link">
+      <a href="../../operators/special/" class="md-nav__link">
         
   
   
@@ -740,7 +732,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="keywords/" class="md-nav__link ">
+            <a href="../../keywords/" class="md-nav__link ">
               
   
   
@@ -775,7 +767,7 @@
   
   
     <li class="md-nav__item">
-      <a href="keywords/control-flow/" class="md-nav__link">
+      <a href="../../keywords/control-flow/" class="md-nav__link">
         
   
   
@@ -798,7 +790,7 @@
   
   
     <li class="md-nav__item">
-      <a href="keywords/functions/" class="md-nav__link">
+      <a href="../../keywords/functions/" class="md-nav__link">
         
   
   
@@ -821,7 +813,7 @@
   
   
     <li class="md-nav__item">
-      <a href="keywords/variables-and-scope/" class="md-nav__link">
+      <a href="../../keywords/variables-and-scope/" class="md-nav__link">
         
   
   
@@ -848,6 +840,8 @@
       
   
   
+    
+  
   
   
     
@@ -873,15 +867,15 @@
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="standard-library/" class="md-nav__link ">
+            <a href="../" class="md-nav__link ">
               
   
   
@@ -900,7 +894,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             Standard Library
@@ -916,7 +910,7 @@
   
   
     <li class="md-nav__item">
-      <a href="standard-library/char/" class="md-nav__link">
+      <a href="../char/" class="md-nav__link">
         
   
   
@@ -939,7 +933,7 @@
   
   
     <li class="md-nav__item">
-      <a href="standard-library/conversion/" class="md-nav__link">
+      <a href="../conversion/" class="md-nav__link">
         
   
   
@@ -962,7 +956,7 @@
   
   
     <li class="md-nav__item">
-      <a href="standard-library/io/" class="md-nav__link">
+      <a href="../io/" class="md-nav__link">
         
   
   
@@ -985,7 +979,7 @@
   
   
     <li class="md-nav__item">
-      <a href="standard-library/list/" class="md-nav__link">
+      <a href="../list/" class="md-nav__link">
         
   
   
@@ -1005,10 +999,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="standard-library/math/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Math
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1019,6 +1035,98 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#abs" class="md-nav__link">
+    <span class="md-ellipsis">
+      abs
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ceil" class="md-nav__link">
+    <span class="md-ellipsis">
+      ceil
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cos" class="md-nav__link">
+    <span class="md-ellipsis">
+      cos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#floor" class="md-nav__link">
+    <span class="md-ellipsis">
+      floor
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pow" class="md-nav__link">
+    <span class="md-ellipsis">
+      pow
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sin" class="md-nav__link">
+    <span class="md-ellipsis">
+      sin
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sqrt" class="md-nav__link">
+    <span class="md-ellipsis">
+      sqrt
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tan" class="md-nav__link">
+    <span class="md-ellipsis">
+      tan
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1031,7 +1139,7 @@
   
   
     <li class="md-nav__item">
-      <a href="standard-library/string/" class="md-nav__link">
+      <a href="../string/" class="md-nav__link">
         
   
   
@@ -1093,7 +1201,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="examples/" class="md-nav__link ">
+            <a href="../../examples/" class="md-nav__link ">
               
   
   
@@ -1128,7 +1236,7 @@
   
   
     <li class="md-nav__item">
-      <a href="examples/functions-unary-operations/" class="md-nav__link">
+      <a href="../../examples/functions-unary-operations/" class="md-nav__link">
         
   
   
@@ -1151,7 +1259,7 @@
   
   
     <li class="md-nav__item">
-      <a href="examples/implicit-conversions-arithmetic/" class="md-nav__link">
+      <a href="../../examples/implicit-conversions-arithmetic/" class="md-nav__link">
         
   
   
@@ -1174,7 +1282,7 @@
   
   
     <li class="md-nav__item">
-      <a href="examples/comments-int-division/" class="md-nav__link">
+      <a href="../../examples/comments-int-division/" class="md-nav__link">
         
   
   
@@ -1197,7 +1305,7 @@
   
   
     <li class="md-nav__item">
-      <a href="examples/char-operations/" class="md-nav__link">
+      <a href="../../examples/char-operations/" class="md-nav__link">
         
   
   
@@ -1220,7 +1328,7 @@
   
   
     <li class="md-nav__item">
-      <a href="examples/control-flow-recursion/" class="md-nav__link">
+      <a href="../../examples/control-flow-recursion/" class="md-nav__link">
         
   
   
@@ -1243,7 +1351,7 @@
   
   
     <li class="md-nav__item">
-      <a href="examples/loops-conditionals/" class="md-nav__link">
+      <a href="../../examples/loops-conditionals/" class="md-nav__link">
         
   
   
@@ -1266,7 +1374,7 @@
   
   
     <li class="md-nav__item">
-      <a href="examples/expression-evaluator/" class="md-nav__link">
+      <a href="../../examples/expression-evaluator/" class="md-nav__link">
         
   
   
@@ -1309,6 +1417,86 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#abs" class="md-nav__link">
+    <span class="md-ellipsis">
+      abs
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ceil" class="md-nav__link">
+    <span class="md-ellipsis">
+      ceil
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cos" class="md-nav__link">
+    <span class="md-ellipsis">
+      cos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#floor" class="md-nav__link">
+    <span class="md-ellipsis">
+      floor
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pow" class="md-nav__link">
+    <span class="md-ellipsis">
+      pow
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sin" class="md-nav__link">
+    <span class="md-ellipsis">
+      sin
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sqrt" class="md-nav__link">
+    <span class="md-ellipsis">
+      sqrt
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tan" class="md-nav__link">
+    <span class="md-ellipsis">
+      tan
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1326,12 +1514,287 @@
   
 
 
-<h1 id="betty-language-reference">Betty Language Reference</h1>
-<p>Welcome to the official documentation for Betty, a dynamic programming language designed for prototyping purposes. Betty supports various data types, has a standard library, and offers a simple and intuitive syntax.</p>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>This documentation is still a work in progress and does not cover all language features (such as lambdas) yet. Please check back for future updates!</p>
-</div>
+<h1 id="math">Math</h1>
+<h2 id="abs">abs</h2>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Details</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Function</strong></td>
+<td><code>abs(number)</code></td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns the absolute value of the given number.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><code>number</code> (Number) – The number for which to return the absolute value.</td>
+</tr>
+<tr>
+<td><strong>Return Type</strong></td>
+<td><code>Number</code> – The absolute value of the provided number.</td>
+</tr>
+<tr>
+<td><strong>Errors</strong></td>
+<td>If the argument is not a number, an error will occur.<br>If the number of arguments is not exactly one, an error will occur.</td>
+</tr>
+<tr>
+<td><strong>Example</strong></td>
+<td><code>abs(-5)</code> → <code>5</code><br><code>abs(3)</code> → <code>3</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="ceil">ceil</h2>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Details</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Function</strong></td>
+<td><code>ceil(number)</code></td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns the smallest integer greater than or equal to the given number.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><code>number</code> (Number) – The number for which to return the ceiling value.</td>
+</tr>
+<tr>
+<td><strong>Return Type</strong></td>
+<td><code>Number</code> – The smallest integer greater than or equal to the provided number.</td>
+</tr>
+<tr>
+<td><strong>Errors</strong></td>
+<td>If the argument is not a number, an error will occur.<br>If the number of arguments is not exactly one, an error will occur.</td>
+</tr>
+<tr>
+<td><strong>Example</strong></td>
+<td><code>ceil(4.2)</code> → <code>5</code><br><code>ceil(-1.7)</code> → <code>-1</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="cos">cos</h2>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Details</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Function</strong></td>
+<td><code>cos(number)</code></td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns the cosine of the given number (interpreted as an angle in radians).</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><code>number</code> (Number) – The angle in radians for which to compute the cosine value.</td>
+</tr>
+<tr>
+<td><strong>Return Type</strong></td>
+<td><code>Number</code> – The cosine of the provided angle.</td>
+</tr>
+<tr>
+<td><strong>Errors</strong></td>
+<td>If the argument is not a number, an error will occur.<br>If the number of arguments is not exactly one, an error will occur.</td>
+</tr>
+<tr>
+<td><strong>Example</strong></td>
+<td><code>cos(0)</code> → <code>1</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="floor">floor</h2>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Details</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Function</strong></td>
+<td><code>floor(x)</code></td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns the largest integer less than or equal to x.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><code>x</code> (Number) – The number to round down.</td>
+</tr>
+<tr>
+<td><strong>Return Type</strong></td>
+<td><code>Number</code></td>
+</tr>
+<tr>
+<td><strong>Errors</strong></td>
+<td>Throws an error if x is not a number.</td>
+</tr>
+<tr>
+<td><strong>Example</strong></td>
+<td><code>floor(3.7)</code> → <code>3</code><br><code>floor(-2.3)</code> → <code>-3</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="pow">pow</h2>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Details</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Function</strong></td>
+<td><code>pow(base, exponent)</code></td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns base raised to the power of exponent.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><code>base</code> (Number) – The base value.<br><code>exponent</code> (Number) – The exponent value.</td>
+</tr>
+<tr>
+<td><strong>Return Type</strong></td>
+<td><code>Number</code></td>
+</tr>
+<tr>
+<td><strong>Errors</strong></td>
+<td>Throws an error if arguments are not numbers.</td>
+</tr>
+<tr>
+<td><strong>Example</strong></td>
+<td><code>pow(2, 3)</code> → <code>8</code><br><code>pow(5, 0.5)</code> → <code>2.236</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="sin">sin</h2>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Details</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Function</strong></td>
+<td><code>sin(angle)</code></td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns the sine of angle, where angle is given in radians.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><code>angle</code> (Number) – The angle in radians.</td>
+</tr>
+<tr>
+<td><strong>Return Type</strong></td>
+<td><code>Number</code></td>
+</tr>
+<tr>
+<td><strong>Errors</strong></td>
+<td>Throws an error if the argument is not a number.</td>
+</tr>
+<tr>
+<td><strong>Example</strong></td>
+<td><code>sin(0)</code> → <code>0</code><br><code>sin(3.14159 / 2)</code> → <code>1</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="sqrt">sqrt</h2>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Details</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Function</strong></td>
+<td><code>sqrt(number)</code></td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns the square root of number.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><code>number</code> (Number) – The value to find the square root of.</td>
+</tr>
+<tr>
+<td><strong>Return Type</strong></td>
+<td><code>Number</code></td>
+</tr>
+<tr>
+<td><strong>Errors</strong></td>
+<td>Throws an error if the argument is not a number.</td>
+</tr>
+<tr>
+<td><strong>Example</strong></td>
+<td><code>sqrt(9)</code> → <code>3</code><br><code>sqrt(2)</code> → <code>1.41421</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="tan">tan</h2>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Details</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Function</strong></td>
+<td><code>tan(number)</code></td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns the tangent of number, where number is in radians.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><code>number</code> (Number) – The angle in radians.</td>
+</tr>
+<tr>
+<td><strong>Return Type</strong></td>
+<td><code>Number</code></td>
+</tr>
+<tr>
+<td><strong>Errors</strong></td>
+<td>Throws an error if the argument is not a number.</td>
+</tr>
+<tr>
+<td><strong>Example</strong></td>
+<td><code>tan(0)</code> → <code>0</code><br><code>tan(pi / 4)</code> → <code>1</code></td>
+</tr>
+</tbody>
+</table>
 
 
 
@@ -1380,10 +1843,10 @@
     
     
       
-      <script id="__config" type="application/json">{"base": ".", "features": ["navigation.indexes"], "search": "assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.indexes"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.56ea9cef.min.js"></script>
+      <script src="../../assets/javascripts/bundle.56ea9cef.min.js"></script>
       
     
   </body>

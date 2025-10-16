@@ -2,62 +2,138 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://betty-lang.org/</loc>
-         <lastmod>2025-07-13</lastmod>
+         <lastmod>2025-10-16</lastmod>
     </url>
     <url>
          <loc>https://betty-lang.org/data-types/</loc>
-         <lastmod>2025-07-13</lastmod>
+         <lastmod>2025-10-16</lastmod>
     </url>
     <url>
          <loc>https://betty-lang.org/data-types/boolean/</loc>
-         <lastmod>2025-07-13</lastmod>
+         <lastmod>2025-10-16</lastmod>
     </url>
     <url>
          <loc>https://betty-lang.org/data-types/char/</loc>
-         <lastmod>2025-07-13</lastmod>
+         <lastmod>2025-10-16</lastmod>
     </url>
     <url>
          <loc>https://betty-lang.org/data-types/list/</loc>
-         <lastmod>2025-07-13</lastmod>
+         <lastmod>2025-10-16</lastmod>
     </url>
     <url>
          <loc>https://betty-lang.org/data-types/none/</loc>
-         <lastmod>2025-07-13</lastmod>
+         <lastmod>2025-10-16</lastmod>
     </url>
     <url>
          <loc>https://betty-lang.org/data-types/number/</loc>
-         <lastmod>2025-07-13</lastmod>
+         <lastmod>2025-10-16</lastmod>
     </url>
     <url>
          <loc>https://betty-lang.org/data-types/string/</loc>
-         <lastmod>2025-07-13</lastmod>
+         <lastmod>2025-10-16</lastmod>
+    </url>
+    <url>
+         <loc>https://betty-lang.org/examples/</loc>
+         <lastmod>2025-10-16</lastmod>
+    </url>
+    <url>
+         <loc>https://betty-lang.org/examples/char-operations/</loc>
+         <lastmod>2025-10-16</lastmod>
+    </url>
+    <url>
+         <loc>https://betty-lang.org/examples/comments-int-division/</loc>
+         <lastmod>2025-10-16</lastmod>
+    </url>
+    <url>
+         <loc>https://betty-lang.org/examples/control-flow-recursion/</loc>
+         <lastmod>2025-10-16</lastmod>
+    </url>
+    <url>
+         <loc>https://betty-lang.org/examples/expression-evaluator/</loc>
+         <lastmod>2025-10-16</lastmod>
+    </url>
+    <url>
+         <loc>https://betty-lang.org/examples/functions-unary-operations/</loc>
+         <lastmod>2025-10-16</lastmod>
+    </url>
+    <url>
+         <loc>https://betty-lang.org/examples/implicit-conversions-arithmetic/</loc>
+         <lastmod>2025-10-16</lastmod>
+    </url>
+    <url>
+         <loc>https://betty-lang.org/examples/loops-conditionals/</loc>
+         <lastmod>2025-10-16</lastmod>
+    </url>
+    <url>
+         <loc>https://betty-lang.org/keywords/</loc>
+         <lastmod>2025-10-16</lastmod>
+    </url>
+    <url>
+         <loc>https://betty-lang.org/keywords/control-flow/</loc>
+         <lastmod>2025-10-16</lastmod>
+    </url>
+    <url>
+         <loc>https://betty-lang.org/keywords/functions/</loc>
+         <lastmod>2025-10-16</lastmod>
+    </url>
+    <url>
+         <loc>https://betty-lang.org/keywords/variables-and-scope/</loc>
+         <lastmod>2025-10-16</lastmod>
     </url>
     <url>
          <loc>https://betty-lang.org/operators/</loc>
-         <lastmod>2025-07-13</lastmod>
+         <lastmod>2025-10-16</lastmod>
     </url>
     <url>
          <loc>https://betty-lang.org/operators/arithmetic/</loc>
-         <lastmod>2025-07-13</lastmod>
+         <lastmod>2025-10-16</lastmod>
     </url>
     <url>
          <loc>https://betty-lang.org/operators/assignment/</loc>
-         <lastmod>2025-07-13</lastmod>
+         <lastmod>2025-10-16</lastmod>
     </url>
     <url>
          <loc>https://betty-lang.org/operators/comparative/</loc>
-         <lastmod>2025-07-13</lastmod>
+         <lastmod>2025-10-16</lastmod>
     </url>
     <url>
          <loc>https://betty-lang.org/operators/conditional/</loc>
-         <lastmod>2025-07-13</lastmod>
+         <lastmod>2025-10-16</lastmod>
     </url>
     <url>
          <loc>https://betty-lang.org/operators/logical/</loc>
-         <lastmod>2025-07-13</lastmod>
+         <lastmod>2025-10-16</lastmod>
     </url>
     <url>
          <loc>https://betty-lang.org/operators/special/</loc>
-         <lastmod>2025-07-13</lastmod>
+         <lastmod>2025-10-16</lastmod>
+    </url>
+    <url>
+         <loc>https://betty-lang.org/standard-library/</loc>
+         <lastmod>2025-10-16</lastmod>
+    </url>
+    <url>
+         <loc>https://betty-lang.org/standard-library/char/</loc>
+         <lastmod>2025-10-16</lastmod>
+    </url>
+    <url>
+         <loc>https://betty-lang.org/standard-library/conversion/</loc>
+         <lastmod>2025-10-16</lastmod>
+    </url>
+    <url>
+         <loc>https://betty-lang.org/standard-library/io/</loc>
+         <lastmod>2025-10-16</lastmod>
+    </url>
+    <url>
+         <loc>https://betty-lang.org/standard-library/list/</loc>
+         <lastmod>2025-10-16</lastmod>
+    </url>
+    <url>
+         <loc>https://betty-lang.org/standard-library/math/</loc>
+         <lastmod>2025-10-16</lastmod>
+    </url>
+    <url>
+         <loc>https://betty-lang.org/standard-library/string/</loc>
+         <lastmod>2025-10-16</lastmod>
     </url>
 </urlset>

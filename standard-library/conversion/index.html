@@ -8,26 +8,28 @@
       
       
       
-        <link rel="canonical" href="https://betty-lang.org/">
+        <link rel="canonical" href="https://betty-lang.org/standard-library/conversion/">
       
       
+        <link rel="prev" href="../char/">
       
-        <link rel="next" href="data-types/">
+      
+        <link rel="next" href="../io/">
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
     
     
       
-        <title>Betty Programming Language</title>
+        <title>Conversion - Betty Programming Language</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.342714a4.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.342714a4.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -46,9 +48,9 @@
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/extra.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/extra.css">
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -74,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#betty-language-reference" class="md-skip">
+        <a href="#conversion" class="md-skip">
           Skip to content
         </a>
       
@@ -90,9 +92,9 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="Betty Programming Language" class="md-header__button md-logo" aria-label="Betty Programming Language" data-md-component="logo">
+    <a href="../.." title="Betty Programming Language" class="md-header__button md-logo" aria-label="Betty Programming Language" data-md-component="logo">
       
-  <img src="assets/images/logo.svg" alt="logo">
+  <img src="../../assets/images/logo.svg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -109,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Introduction
+              Conversion
             
           </span>
         </div>
@@ -235,9 +237,9 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Betty Programming Language" class="md-nav__button md-logo" aria-label="Betty Programming Language" data-md-component="logo">
+    <a href="../.." title="Betty Programming Language" class="md-nav__button md-logo" aria-label="Betty Programming Language" data-md-component="logo">
       
-  <img src="assets/images/logo.svg" alt="logo">
+  <img src="../../assets/images/logo.svg" alt="logo">
 
     </a>
     Betty Programming Language
@@ -261,19 +263,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -284,7 +277,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -326,7 +318,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="data-types/" class="md-nav__link ">
+            <a href="../../data-types/" class="md-nav__link ">
               
   
   
@@ -361,7 +353,7 @@
   
   
     <li class="md-nav__item">
-      <a href="data-types/number/" class="md-nav__link">
+      <a href="../../data-types/number/" class="md-nav__link">
         
   
   
@@ -384,7 +376,7 @@
   
   
     <li class="md-nav__item">
-      <a href="data-types/string/" class="md-nav__link">
+      <a href="../../data-types/string/" class="md-nav__link">
         
   
   
@@ -407,7 +399,7 @@
   
   
     <li class="md-nav__item">
-      <a href="data-types/char/" class="md-nav__link">
+      <a href="../../data-types/char/" class="md-nav__link">
         
   
   
@@ -430,7 +422,7 @@
   
   
     <li class="md-nav__item">
-      <a href="data-types/boolean/" class="md-nav__link">
+      <a href="../../data-types/boolean/" class="md-nav__link">
         
   
   
@@ -453,7 +445,7 @@
   
   
     <li class="md-nav__item">
-      <a href="data-types/list/" class="md-nav__link">
+      <a href="../../data-types/list/" class="md-nav__link">
         
   
   
@@ -476,7 +468,7 @@
   
   
     <li class="md-nav__item">
-      <a href="data-types/none/" class="md-nav__link">
+      <a href="../../data-types/none/" class="md-nav__link">
         
   
   
@@ -536,7 +528,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="operators/" class="md-nav__link ">
+            <a href="../../operators/" class="md-nav__link ">
               
   
   
@@ -571,7 +563,7 @@
   
   
     <li class="md-nav__item">
-      <a href="operators/arithmetic/" class="md-nav__link">
+      <a href="../../operators/arithmetic/" class="md-nav__link">
         
   
   
@@ -594,7 +586,7 @@
   
   
     <li class="md-nav__item">
-      <a href="operators/logical/" class="md-nav__link">
+      <a href="../../operators/logical/" class="md-nav__link">
         
   
   
@@ -617,7 +609,7 @@
   
   
     <li class="md-nav__item">
-      <a href="operators/comparative/" class="md-nav__link">
+      <a href="../../operators/comparative/" class="md-nav__link">
         
   
   
@@ -640,7 +632,7 @@
   
   
     <li class="md-nav__item">
-      <a href="operators/conditional/" class="md-nav__link">
+      <a href="../../operators/conditional/" class="md-nav__link">
         
   
   
@@ -663,7 +655,7 @@
   
   
     <li class="md-nav__item">
-      <a href="operators/assignment/" class="md-nav__link">
+      <a href="../../operators/assignment/" class="md-nav__link">
         
   
   
@@ -686,7 +678,7 @@
   
   
     <li class="md-nav__item">
-      <a href="operators/special/" class="md-nav__link">
+      <a href="../../operators/special/" class="md-nav__link">
         
   
   
@@ -740,7 +732,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="keywords/" class="md-nav__link ">
+            <a href="../../keywords/" class="md-nav__link ">
               
   
   
@@ -775,7 +767,7 @@
   
   
     <li class="md-nav__item">
-      <a href="keywords/control-flow/" class="md-nav__link">
+      <a href="../../keywords/control-flow/" class="md-nav__link">
         
   
   
@@ -798,7 +790,7 @@
   
   
     <li class="md-nav__item">
-      <a href="keywords/functions/" class="md-nav__link">
+      <a href="../../keywords/functions/" class="md-nav__link">
         
   
   
@@ -821,7 +813,7 @@
   
   
     <li class="md-nav__item">
-      <a href="keywords/variables-and-scope/" class="md-nav__link">
+      <a href="../../keywords/variables-and-scope/" class="md-nav__link">
         
   
   
@@ -848,6 +840,8 @@
       
   
   
+    
+  
   
   
     
@@ -873,15 +867,15 @@
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="standard-library/" class="md-nav__link ">
+            <a href="../" class="md-nav__link ">
               
   
   
@@ -900,7 +894,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             Standard Library
@@ -916,7 +910,7 @@
   
   
     <li class="md-nav__item">
-      <a href="standard-library/char/" class="md-nav__link">
+      <a href="../char/" class="md-nav__link">
         
   
   
@@ -936,10 +930,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="standard-library/conversion/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Conversion
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -950,6 +966,71 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tobool" class="md-nav__link">
+    <span class="md-ellipsis">
+      tobool
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tochar" class="md-nav__link">
+    <span class="md-ellipsis">
+      tochar
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tolist" class="md-nav__link">
+    <span class="md-ellipsis">
+      tolist
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tonum" class="md-nav__link">
+    <span class="md-ellipsis">
+      tonum
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tostr" class="md-nav__link">
+    <span class="md-ellipsis">
+      tostr
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -962,7 +1043,7 @@
   
   
     <li class="md-nav__item">
-      <a href="standard-library/io/" class="md-nav__link">
+      <a href="../io/" class="md-nav__link">
         
   
   
@@ -985,7 +1066,7 @@
   
   
     <li class="md-nav__item">
-      <a href="standard-library/list/" class="md-nav__link">
+      <a href="../list/" class="md-nav__link">
         
   
   
@@ -1008,7 +1089,7 @@
   
   
     <li class="md-nav__item">
-      <a href="standard-library/math/" class="md-nav__link">
+      <a href="../math/" class="md-nav__link">
         
   
   
@@ -1031,7 +1112,7 @@
   
   
     <li class="md-nav__item">
-      <a href="standard-library/string/" class="md-nav__link">
+      <a href="../string/" class="md-nav__link">
         
   
   
@@ -1093,7 +1174,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="examples/" class="md-nav__link ">
+            <a href="../../examples/" class="md-nav__link ">
               
   
   
@@ -1128,7 +1209,7 @@
   
   
     <li class="md-nav__item">
-      <a href="examples/functions-unary-operations/" class="md-nav__link">
+      <a href="../../examples/functions-unary-operations/" class="md-nav__link">
         
   
   
@@ -1151,7 +1232,7 @@
   
   
     <li class="md-nav__item">
-      <a href="examples/implicit-conversions-arithmetic/" class="md-nav__link">
+      <a href="../../examples/implicit-conversions-arithmetic/" class="md-nav__link">
         
   
   
@@ -1174,7 +1255,7 @@
   
   
     <li class="md-nav__item">
-      <a href="examples/comments-int-division/" class="md-nav__link">
+      <a href="../../examples/comments-int-division/" class="md-nav__link">
         
   
   
@@ -1197,7 +1278,7 @@
   
   
     <li class="md-nav__item">
-      <a href="examples/char-operations/" class="md-nav__link">
+      <a href="../../examples/char-operations/" class="md-nav__link">
         
   
   
@@ -1220,7 +1301,7 @@
   
   
     <li class="md-nav__item">
-      <a href="examples/control-flow-recursion/" class="md-nav__link">
+      <a href="../../examples/control-flow-recursion/" class="md-nav__link">
         
   
   
@@ -1243,7 +1324,7 @@
   
   
     <li class="md-nav__item">
-      <a href="examples/loops-conditionals/" class="md-nav__link">
+      <a href="../../examples/loops-conditionals/" class="md-nav__link">
         
   
   
@@ -1266,7 +1347,7 @@
   
   
     <li class="md-nav__item">
-      <a href="examples/expression-evaluator/" class="md-nav__link">
+      <a href="../../examples/expression-evaluator/" class="md-nav__link">
         
   
   
@@ -1309,6 +1390,59 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tobool" class="md-nav__link">
+    <span class="md-ellipsis">
+      tobool
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tochar" class="md-nav__link">
+    <span class="md-ellipsis">
+      tochar
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tolist" class="md-nav__link">
+    <span class="md-ellipsis">
+      tolist
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tonum" class="md-nav__link">
+    <span class="md-ellipsis">
+      tonum
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tostr" class="md-nav__link">
+    <span class="md-ellipsis">
+      tostr
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1326,12 +1460,190 @@
   
 
 
-<h1 id="betty-language-reference">Betty Language Reference</h1>
-<p>Welcome to the official documentation for Betty, a dynamic programming language designed for prototyping purposes. Betty supports various data types, has a standard library, and offers a simple and intuitive syntax.</p>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>This documentation is still a work in progress and does not cover all language features (such as lambdas) yet. Please check back for future updates!</p>
-</div>
+<h1 id="conversion">Conversion</h1>
+<h2 id="tobool">tobool</h2>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Details</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Function</strong></td>
+<td><code>tobool(value)</code></td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Converts value to a boolean. Numbers, characters, and strings follow specific truthiness rules.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><code>value</code> (number, char, string, or bool) – The value to convert.</td>
+</tr>
+<tr>
+<td><strong>Return Type</strong></td>
+<td><code>bool</code></td>
+</tr>
+<tr>
+<td><strong>Conversion Rules</strong></td>
+<td><strong>Numbers:</strong> <code>0</code> → <code>false</code>, nonzero → <code>true</code><br><strong>Chars:</strong> Always <code>true</code><br><strong>Strings:</strong> <code>"true"</code> → <code>true</code>, <code>"false"</code> → <code>false</code>, empty → <code>false</code>, non-empty → <code>true</code><br><strong>Booleans:</strong> Returned as-is</td>
+</tr>
+<tr>
+<td><strong>Errors</strong></td>
+<td>Throws an exception if value is an unsupported type.</td>
+</tr>
+<tr>
+<td><strong>Example</strong></td>
+<td><code>tobool(0)</code> → <code>false</code><br><code>tobool(42)</code> → <code>true</code><br><code>tobool('A')</code> → <code>true</code><br><code>tobool("")</code> → <code>false</code><br><code>tobool("true")</code> → <code>true</code><br><code>tobool("false")</code> → <code>false</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="tochar">tochar</h2>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Details</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Function</strong></td>
+<td><code>tochar(value)</code></td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Converts value to a character if possible. Different types follow specific conversion rules.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><code>value</code> (number, char, string, or bool) – The value to convert.</td>
+</tr>
+<tr>
+<td><strong>Return Type</strong></td>
+<td><code>char</code></td>
+</tr>
+<tr>
+<td><strong>Conversion Rules</strong></td>
+<td><strong>Numbers:</strong> Cast to char if within valid range.<br><strong>Chars:</strong> Returned as-is.<br><strong>Strings:</strong> Must be exactly one character long.<br><strong>Booleans:</strong> <code>true</code> → <code>'T'</code>, <code>false</code> → <code>'F'</code></td>
+</tr>
+<tr>
+<td><strong>Errors</strong></td>
+<td>Throws an exception if value is an unsupported type, a number outside the valid character range, or a string longer than one character.</td>
+</tr>
+<tr>
+<td><strong>Example</strong></td>
+<td><code>tochar(65)</code> → <code>'A'</code><br><code>tochar('Z')</code> → <code>'Z'</code><br><code>tochar("B")</code> → <code>'B'</code><br><code>tochar(true)</code> → <code>'T'</code><br><code>tochar(false)</code> → <code>'F'</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="tolist">tolist</h2>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Details</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Function</strong></td>
+<td><code>tolist(value)</code></td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Converts a string into a list of characters. Each character in the string becomes an individual element in the list.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><code>value</code> (string) – The string to convert into a list of characters.</td>
+</tr>
+<tr>
+<td><strong>Return Type</strong></td>
+<td><code>list</code> (of char)</td>
+</tr>
+<tr>
+<td><strong>Errors</strong></td>
+<td>Throws an exception if value is not a string.</td>
+</tr>
+<tr>
+<td><strong>Example</strong></td>
+<td><code>tolist("abc")</code> → <code>['a', 'b', 'c']</code><br><code>tolist("7")</code> → <code>['7']</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="tonum">tonum</h2>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Details</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Function</strong></td>
+<td><code>tonum(value)</code></td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Converts a value into a number. Strings are parsed as numbers, booleans convert to 1 (true) or 0 (false), and characters are converted to their numeric values.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><code>value</code> (char, string, boolean, or number) – The value to convert into a number.</td>
+</tr>
+<tr>
+<td><strong>Return Type</strong></td>
+<td><code>number</code></td>
+</tr>
+<tr>
+<td><strong>Errors</strong></td>
+<td>Throws an exception if value is a string that cannot be converted to a number or if value is of an unsupported type.</td>
+</tr>
+<tr>
+<td><strong>Example</strong></td>
+<td><code>tonum('5')</code> → <code>5</code><br><code>tonum("42.3")</code> → <code>42.3</code><br><code>tonum(true)</code> → <code>1</code><br><code>tonum(false)</code> → <code>0</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="tostr">tostr</h2>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Details</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Function</strong></td>
+<td><code>tostr(value)</code></td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Converts a value into a string representation.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><code>value</code> (any type) – The value to convert into a string.</td>
+</tr>
+<tr>
+<td><strong>Return Type</strong></td>
+<td><code>string</code></td>
+</tr>
+<tr>
+<td><strong>Errors</strong></td>
+<td>None (all values have a string representation).</td>
+</tr>
+<tr>
+<td><strong>Example</strong></td>
+<td><code>tostr(42)</code> → <code>"42"</code><br><code>tostr(true)</code> → <code>"true"</code><br><code>tostr('A')</code> → <code>"A"</code></td>
+</tr>
+</tbody>
+</table>
 
 
 
@@ -1380,10 +1692,10 @@
     
     
       
-      <script id="__config" type="application/json">{"base": ".", "features": ["navigation.indexes"], "search": "assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.indexes"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.56ea9cef.min.js"></script>
+      <script src="../../assets/javascripts/bundle.56ea9cef.min.js"></script>
       
     
   </body>
