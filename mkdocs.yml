@@ -30,6 +30,10 @@ theme:
         name: Switch to system preference
   features:
     - navigation.indexes
+    - navigation.tabs
+    - navigation.top
+    - navigation.footer
+    - content.code.copy
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -43,46 +47,11 @@ markdown_extensions:
 extra_css:
   - assets/stylesheets/extra.css
 
-extra_files:
-  - CNAME
+copyright: Copyright &copy; 2025 Dimitris Iliadis
 
-nav:
-  - Introduction: 'index.md'
-  - Data Types:
-      - data-types/index.md
-      - Number: data-types/number.md
-      - String: data-types/string.md
-      - Char: data-types/char.md
-      - Boolean: data-types/boolean.md
-      - List: data-types/list.md
-      - None: data-types/none.md
-  - Operators:
-    - operators/index.md
-    - Arithmetic: operators/arithmetic.md
-    - Logical: operators/logical.md
-    - Comparative: operators/comparative.md
-    - Conditional: operators/conditional.md
-    - Assignment: operators/assignment.md
-    - Special: operators/special.md
-  - Keywords:
-    - keywords/index.md
-    - Control Flow: keywords/control-flow.md
-    - Functions: keywords/functions.md
-    - Variables and Scope: keywords/variables-and-scope.md
-  - Standard Library:
-    - standard-library/index.md
-    - Char: standard-library/char.md
-    - Conversion: standard-library/conversion.md
-    - IO: standard-library/io.md
-    - List: standard-library/list.md
-    - Math: standard-library/math.md
-    - String: standard-library/string.md
-  - Examples:
-    - examples/index.md
-    - "Example 1: Functions and Unary Operations": examples/functions-unary-operations.md
-    - "Example 2: Implicit Conversions and Arithmetic": examples/implicit-conversions-arithmetic.md
-    - "Example 3: Comments and Integer Division": examples/comments-int-division.md
-    - "Example 4: Character Operations": examples/char-operations.md
-    - "Example 5: Control Flow and Recursion": examples/control-flow-recursion.md
-    - "Example 6: Loops and Conditionals": examples/loops-conditionals.md
-    - "Example 7: Expression Evaluator": examples/expression-evaluator.md
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/iliadis-dimitris
+    - icon: fontawesome/solid/envelope
+      link: mailto:dimitrios.iliadis@outlook.com

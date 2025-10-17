@@ -16,10 +16,10 @@ Betty's reserved keywords form the foundation of the language, enabling control 
 
     Keywords for defining and working with functions, including `func`.
 
-- :material-variable: [__Variables and Scope__](variables-and-scope.md)
+- :material-variable: [__Variables__](variables.md)
    
     ---
 
-    Keyword for global variable declarations.
+    Keywords for variable and global variable declarations.
 
 </div>

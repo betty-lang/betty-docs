@@ -1,4 +1,4 @@
-# Example 7: Expression Evaluator
+# Expression Evaluator
 
 This is a mathematical expression evaluator implemented in Betty, showcasing the language’s self-hosting (bootstrapping) potential.
 
