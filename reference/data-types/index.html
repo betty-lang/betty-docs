@@ -8,28 +8,28 @@
       
       
       
-        <link rel="canonical" href="https://betty-lang.org/examples/">
+        <link rel="canonical" href="https://betty-lang.org/reference/data-types/">
       
       
-        <link rel="prev" href="..">
+        <link rel="prev" href="../">
       
       
-        <link rel="next" href="expression-evaluator/">
+        <link rel="next" href="boolean/">
       
       
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
     
     
       
-        <title>Examples - Betty Programming Language</title>
+        <title>Data Types - Betty Programming Language</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.342714a4.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -48,9 +48,9 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/extra.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/extra.css">
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#examples" class="md-skip">
+        <a href="#data-types" class="md-skip">
           Skip to content
         </a>
       
@@ -90,9 +90,9 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="Betty Programming Language" class="md-header__button md-logo" aria-label="Betty Programming Language" data-md-component="logo">
+    <a href="../.." title="Betty Programming Language" class="md-header__button md-logo" aria-label="Betty Programming Language" data-md-component="logo">
       
-  <img src="../assets/images/logo.svg" alt="logo">
+  <img src="../../assets/images/logo.svg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -109,7 +109,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Examples
+              Data Types
             
           </span>
         </div>
@@ -230,7 +230,7 @@
   
   
     <li class="md-tabs__item">
-      <a href=".." class="md-tabs__link">
+      <a href="../.." class="md-tabs__link">
         
   
   
@@ -247,13 +247,11 @@
   
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="./" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../../examples/" class="md-tabs__link">
           
   
   
@@ -271,11 +269,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../reference/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
           
   
   
@@ -300,9 +300,7 @@
           
             
               
-                
-              
-              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -313,9 +311,9 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="Betty Programming Language" class="md-nav__button md-logo" aria-label="Betty Programming Language" data-md-component="logo">
+    <a href="../.." title="Betty Programming Language" class="md-nav__button md-logo" aria-label="Betty Programming Language" data-md-component="logo">
       
-  <img src="../assets/images/logo.svg" alt="logo">
+  <img src="../../assets/images/logo.svg" alt="logo">
 
     </a>
     Betty Programming Language
@@ -342,7 +340,7 @@
   
   
     <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -361,8 +359,6 @@
       
   
   
-    
-  
   
   
     
@@ -378,21 +374,18 @@
     
     
       
-        
-        
-      
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="./" class="md-nav__link md-nav__link--active">
+            <a href="../../examples/" class="md-nav__link ">
               
   
   
@@ -405,13 +398,13 @@
             </a>
             
               
-              <label class="md-nav__link md-nav__link--active" for="__nav_2" id="__nav_2_label" tabindex="">
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Examples
@@ -427,7 +420,7 @@
   
   
     <li class="md-nav__item">
-      <a href="expression-evaluator/" class="md-nav__link">
+      <a href="../../examples/expression-evaluator/" class="md-nav__link">
         
   
   
@@ -454,6 +447,8 @@
       
   
   
+    
+  
   
   
     
@@ -475,18 +470,21 @@
     
     
       
+        
+        
+      
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../reference/" class="md-nav__link ">
+            <a href="../" class="md-nav__link ">
               
   
   
@@ -499,13 +497,13 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Reference
@@ -518,6 +516,8 @@
                 
   
   
+    
+  
   
   
     
@@ -546,15 +546,15 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" checked>
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../reference/data-types/" class="md-nav__link ">
+            <a href="./" class="md-nav__link md-nav__link--active">
               
   
   
@@ -567,13 +567,13 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+              <label class="md-nav__link md-nav__link--active" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3_2">
             <span class="md-nav__icon md-icon"></span>
             Data types
@@ -589,7 +589,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../reference/data-types/boolean/" class="md-nav__link">
+      <a href="boolean/" class="md-nav__link">
         
   
   
@@ -612,7 +612,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../reference/data-types/char/" class="md-nav__link">
+      <a href="char/" class="md-nav__link">
         
   
   
@@ -635,7 +635,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../reference/data-types/list/" class="md-nav__link">
+      <a href="list/" class="md-nav__link">
         
   
   
@@ -658,7 +658,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../reference/data-types/none/" class="md-nav__link">
+      <a href="none/" class="md-nav__link">
         
   
   
@@ -681,7 +681,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../reference/data-types/number/" class="md-nav__link">
+      <a href="number/" class="md-nav__link">
         
   
   
@@ -704,7 +704,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../reference/data-types/string/" class="md-nav__link">
+      <a href="string/" class="md-nav__link">
         
   
   
@@ -762,7 +762,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../reference/keywords/" class="md-nav__link ">
+            <a href="../keywords/" class="md-nav__link ">
               
   
   
@@ -797,7 +797,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../reference/keywords/control-flow/" class="md-nav__link">
+      <a href="../keywords/control-flow/" class="md-nav__link">
         
   
   
@@ -820,7 +820,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../reference/keywords/functions/" class="md-nav__link">
+      <a href="../keywords/functions/" class="md-nav__link">
         
   
   
@@ -843,7 +843,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../reference/keywords/variables/" class="md-nav__link">
+      <a href="../keywords/variables/" class="md-nav__link">
         
   
   
@@ -907,7 +907,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../reference/operators/" class="md-nav__link ">
+            <a href="../operators/" class="md-nav__link ">
               
   
   
@@ -942,7 +942,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../reference/operators/arithmetic/" class="md-nav__link">
+      <a href="../operators/arithmetic/" class="md-nav__link">
         
   
   
@@ -965,7 +965,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../reference/operators/assignment/" class="md-nav__link">
+      <a href="../operators/assignment/" class="md-nav__link">
         
   
   
@@ -988,7 +988,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../reference/operators/comparative/" class="md-nav__link">
+      <a href="../operators/comparative/" class="md-nav__link">
         
   
   
@@ -1011,7 +1011,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../reference/operators/conditional/" class="md-nav__link">
+      <a href="../operators/conditional/" class="md-nav__link">
         
   
   
@@ -1034,7 +1034,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../reference/operators/logical/" class="md-nav__link">
+      <a href="../operators/logical/" class="md-nav__link">
         
   
   
@@ -1057,7 +1057,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../reference/operators/special/" class="md-nav__link">
+      <a href="../operators/special/" class="md-nav__link">
         
   
   
@@ -1121,7 +1121,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../reference/standard-library/" class="md-nav__link ">
+            <a href="../standard-library/" class="md-nav__link ">
               
   
   
@@ -1156,7 +1156,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../reference/standard-library/char/" class="md-nav__link">
+      <a href="../standard-library/char/" class="md-nav__link">
         
   
   
@@ -1179,7 +1179,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../reference/standard-library/conversion/" class="md-nav__link">
+      <a href="../standard-library/conversion/" class="md-nav__link">
         
   
   
@@ -1202,7 +1202,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../reference/standard-library/io/" class="md-nav__link">
+      <a href="../standard-library/io/" class="md-nav__link">
         
   
   
@@ -1225,7 +1225,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../reference/standard-library/list/" class="md-nav__link">
+      <a href="../standard-library/list/" class="md-nav__link">
         
   
   
@@ -1248,7 +1248,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../reference/standard-library/math/" class="md-nav__link">
+      <a href="../standard-library/math/" class="md-nav__link">
         
   
   
@@ -1271,7 +1271,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../reference/standard-library/string/" class="md-nav__link">
+      <a href="../standard-library/string/" class="md-nav__link">
         
   
   
@@ -1310,9 +1310,7 @@
             
             
               
-                
-              
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" hidden>
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -1335,22 +1333,45 @@
               <article class="md-content__inner md-typeset">
                 
                   
-  
-
 
 
   
   
 
 
-<h1 id="examples">Examples</h1>
-<p>Explore practical examples demonstrating Betty's features and capabilities, from basic syntax to advanced programming concepts.</p>
+<h1 id="data-types">Data Types</h1>
+<p>The Betty programming language provides a range of data types, each serving a unique purpose.  </p>
 <div class="grid cards">
 <ul>
 <li>
-<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2m-6 4.1L14.1 6l1.4 1.4L16.9 6 18 7.1l-1.4 1.4L18 9.9 16.9 11l-1.4-1.4-1.4 1.4L13 9.9l1.4-1.4zm-6.8.6h5v1.5h-5zm5.3 8.3h-2v2H8v-2H6v-1.5h2v-2h1.5v2h2zm6.5 1.2h-5v-1.5h5zm0-2.4h-5v-1.5h5z"/></svg></span> <a href="expression-evaluator/"><strong>Expression Evaluator</strong></a></p>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M9 4.75A.75.75 0 0 1 9.75 4h4a.75.75 0 0 1 .53 1.28l-1.89 1.892c.312.076.604.18.867.319.742.391 1.244 1.063 1.244 2.005 0 .653-.231 1.208-.629 1.627-.386.408-.894.653-1.408.777-1.01.243-2.225.063-3.124-.527a.751.751 0 0 1 .822-1.254c.534.35 1.32.474 1.951.322.306-.073.53-.201.67-.349.129-.136.218-.32.218-.596 0-.308-.123-.509-.444-.678-.373-.197-.98-.318-1.806-.318a.75.75 0 0 1-.53-1.28l1.72-1.72H9.75A.75.75 0 0 1 9 4.75m-3.587 5.763c-.35-.05-.77.113-.983.572a.75.75 0 1 1-1.36-.632c.508-1.094 1.589-1.565 2.558-1.425 1 .145 1.872.945 1.872 2.222 0 1.433-1.088 2.192-1.79 2.681-.308.216-.571.397-.772.573H7a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75c0-.69.3-1.211.67-1.61.348-.372.8-.676 1.15-.92.8-.56 1.18-.904 1.18-1.474 0-.473-.267-.69-.587-.737M5.604.089A.75.75 0 0 1 6 .75v4.77h.711a.75.75 0 0 1 0 1.5H3.759a.75.75 0 0 1 0-1.5H4.5V2.15l-.334.223a.75.75 0 0 1-.832-1.248l1.5-1a.75.75 0 0 1 .77-.037Z"/></svg></span> <a href="number/"><strong>Number</strong></a></p>
 <hr />
-<p>Implement a complete expression evaluator demonstrating parsing, evaluation, and advanced language features.</p>
+<p>Represents both integers and floating-point values, supporting arithmetic and implicit conversions. </p>
+</li>
+<li>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m18.5 4 1.16 4.35-.96.26c-.45-.87-.91-1.74-1.44-2.18C16.73 6 16.11 6 15.5 6H13v10.5c0 .5 0 1 .33 1.25.34.25 1 .25 1.67.25v1H9v-1c.67 0 1.33 0 1.67-.25.33-.25.33-.75.33-1.25V6H8.5c-.61 0-1.23 0-1.76.43-.53.44-.99 1.31-1.44 2.18l-.96-.26L5.5 4z"/></svg></span> <a href="string/"><strong>String</strong></a>  </p>
+<hr />
+<p>A sequence of characters with intrinsic functions for manipulation and formatting.</p>
+</li>
+<li>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.06 18a4 4 0 0 1-.2-.89c-.67.7-1.48 1.05-2.41 1.05-.83 0-1.52-.24-2.05-.71-.53-.45-.8-1.06-.8-1.79 0-.88.33-1.56 1-2.05s1.61-.73 2.83-.73h1.4v-.64q0-.735-.45-1.17c-.3-.29-.75-.43-1.33-.43-.52 0-.95.12-1.3.36-.35.25-.52.54-.52.89h-1.46c0-.43.15-.84.45-1.24.28-.4.71-.71 1.22-.94.51-.21 1.06-.35 1.69-.35.98 0 1.74.24 2.29.73s.84 1.16.86 2.02V16c0 .8.1 1.42.3 1.88V18zm-2.4-1.12c.45 0 .88-.11 1.29-.32.4-.21.7-.49.88-.83v-1.57H18.7c-1.77 0-2.66.47-2.66 1.41 0 .43.15.73.46.96.3.23.68.35 1.16.35m-12.2-3.17h4.07L7.5 8.29zM6.64 6h1.72l4.71 12h-1.93l-.97-2.57H4.82L3.86 18H1.93z"/></svg></span> <a href="char/"><strong>Char</strong></a>  </p>
+<hr />
+<p>A single character, internally stored as an ASCII value, allowing seamless numeric operations. </p>
+</li>
+<li>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M192 64C86 64 0 150 0 256s86 192 192 192h192c106 0 192-86 192-192S490 64 384 64zm192 96a96 96 0 1 1 0 192 96 96 0 1 1 0-192"/></svg></span> <a href="boolean/"><strong>Boolean</strong></a>  </p>
+<hr />
+<p>Represents truth values (<code>true</code> or <code>false</code>) and is used in logical operations and control flow. </p>
+</li>
+<li>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M40 48c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h48c13.3 0 24-10.7 24-24V72c0-13.3-10.7-24-24-24zm152 16c-17.7 0-32 14.3-32 32s14.3 32 32 32h288c17.7 0 32-14.3 32-32s-14.3-32-32-32zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32h288c17.7 0 32-14.3 32-32s-14.3-32-32-32zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32h288c17.7 0 32-14.3 32-32s-14.3-32-32-32zM16 232v48c0 13.3 10.7 24 24 24h48c13.3 0 24-10.7 24-24v-48c0-13.3-10.7-24-24-24H40c-13.3 0-24 10.7-24 24m24 136c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h48c13.3 0 24-10.7 24-24v-48c0-13.3-10.7-24-24-24z"/></svg></span> <a href="list/"><strong>List</strong></a>  </p>
+<hr />
+<p>A dynamic, ordered collection of values that can hold mixed data types and be manipulated efficiently. </p>
+</li>
+<li>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2c1.85 0 3.55.78 4.9 2.1l1.7-2.17 1.58 1.23-1.98 2.52C19.33 7.41 20 9.6 20 12c0 5.5-3.58 10-8 10-1.85 0-3.55-.78-4.9-2.1l-1.7 2.17-1.58-1.23 1.98-2.52C4.67 16.59 4 14.4 4 12 4 6.5 7.58 2 12 2m0 2c-3.31 0-6 3.58-6 8 0 1.73.41 3.33 1.11 4.64l8.56-10.97C14.66 4.62 13.38 4 12 4m0 16c3.31 0 6-3.58 6-8 0-1.73-.41-3.33-1.11-4.64L8.33 18.33C9.34 19.38 10.62 20 12 20"/></svg></span> <a href="none/"><strong>None</strong></a>  </p>
+<hr />
+<p>A special type representing the absence of a value, often used for implicit returns.  </p>
 </li>
 </ul>
 </div>
@@ -1361,13 +1382,8 @@
 
 
 
-  
-  
 
 
-
-
-  
 
 
 
@@ -1391,12 +1407,10 @@
   
     
       
-        
-      
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href=".." class="md-footer__link md-footer__link--prev" aria-label="Previous: Home">
+          <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Previous: Reference">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -1406,20 +1420,20 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Home
+                Reference
               </div>
             </div>
           </a>
         
         
           
-          <a href="expression-evaluator/" class="md-footer__link md-footer__link--next" aria-label="Next: Expression Evaluator">
+          <a href="boolean/" class="md-footer__link md-footer__link--next" aria-label="Next: Boolean">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Expression Evaluator
+                Boolean
               </div>
             </div>
             <div class="md-footer__button md-icon">
@@ -1482,10 +1496,10 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.indexes", "navigation.tabs", "navigation.top", "navigation.footer", "content.code.copy"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.indexes", "navigation.tabs", "navigation.top", "navigation.footer", "content.code.copy"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.56ea9cef.min.js"></script>
+      <script src="../../assets/javascripts/bundle.56ea9cef.min.js"></script>
       
     
   </body>
