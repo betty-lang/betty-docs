@@ -9,8 +9,6 @@ Welcome to the Betty programming language documentation. Explore the language th
 !!!warning
     This documentation is still a work in progress and may not cover all language features yet. Please check back for future updates!
 
-    In case anything is broken, feel free to reach out to me in your channel of preference
-
 <div class="grid cards" markdown>
 
 - :material-lightbulb-on: [__Examples__](examples/index.md)
