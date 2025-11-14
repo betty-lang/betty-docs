@@ -247,6 +247,348 @@ return (5 > 3 ? 3 < 2 : 4 > 2) ? (7 == 7 ? 9 : 8) : (6 == 6 ? 10 : 11);
 return (2 == 2) ? add(4, 5) : multiply(3, 3);  # Returns 9
 ```
 
+## Switch Statements and Expressions
+
+Betty supports two forms of switch constructs: traditional switch statements for control flow, and switch expressions for value-returning pattern matching.
+
+### Switch Expressions
+
+Switch expressions use a concise syntax that evaluates to a value, making them ideal for assignments and inline usage. The syntax follows the pattern `value switch { pattern => result, ... }`.
+
+#### Basic Syntax
+
+```python
+value switch {
+    pattern1 => result1,
+    pattern2 => result2,
+    _ => defaultResult
+}
+```
+
+The `_` (underscore) acts as a default case, matching any value that doesn't match previous patterns.
+
+#### Basic Examples
+
+```python
+# Simple value matching
+x = 2;
+result = x switch {
+    1 => "One",
+    2 => "Two",
+    3 => "Three",
+    _ => "Other"
+};
+# result = "Two"
+
+# Numeric results
+grade = 'B';
+points = grade switch {
+    'A' => 4,
+    'B' => 3,
+    'C' => 2,
+    'D' => 1,
+    _ => 0
+};
+# points = 3
+
+# String matching
+day = "Monday";
+type = day switch {
+    "Monday" => "Weekday",
+    "Tuesday" => "Weekday",
+    "Saturday" => "Weekend",
+    "Sunday" => "Weekend",
+    _ => "Unknown"
+};
+# type = "Weekday"
+
+# Boolean conditions
+isActive = true;
+status = isActive switch {
+    true => "Active",
+    false => "Inactive"
+};
+# status = "Active"
+```
+
+#### Switch After Function Calls
+
+Switch expressions can be applied directly to the result of a function call:
+
+```python
+func getValue() { return 3; }
+
+result = getValue() switch {
+    1 => "One",
+    2 => "Two",
+    3 => "Three",
+    _ => "Other"
+};
+# result = "Three"
+```
+
+#### Switch in Expressions
+
+Switch expressions can be used anywhere an expression is expected:
+
+```python
+# In function arguments
+func double(n) { return n * 2; }
+x = 5;
+result = double(x switch {
+    5 => 10,
+    10 => 20,
+    _ => 0
+});
+# result = 20
+
+# In indexer operations
+arr = ["zero", "one", "two"];
+x = 1;
+result = arr[x switch {
+    0 => 0,
+    1 => 1,
+    2 => 2,
+    _ => 0
+}];
+# result = "one"
+
+# In binary expressions
+x = 2;
+result = (x switch {
+    1 => 10,
+    2 => 20,
+    _ => 0
+}) + 5;
+# result = 25
+```
+
+#### Nested Switch Expressions
+
+Switch expressions can be nested within other switch expressions:
+
+```python
+x = 1;
+y = 2;
+result = x switch {
+    1 => y switch {
+        1 => "One-One",
+        2 => "One-Two",
+        _ => "One-Other"
+    },
+    2 => "Two",
+    _ => "Other"
+};
+# result = "One-Two"
+```
+
+#### Switch with Lambda Functions
+
+Switch expressions work seamlessly with lambda functions, making them powerful for functional programming patterns:
+
+```python
+# Returning different lambdas
+mode = 2;
+calculator = mode switch {
+    1 => func(a, b) { return a + b; },
+    2 => func(a, b) { return a * b; },
+    3 => func(a, b) { return a - b; },
+    _ => func(a, b) { return 0; }
+};
+result = calculator(7, 3);
+# result = 21
+
+# With closure capture
+multiplier = 10;
+type = "add";
+operation = type switch {
+    "add" => func(x) { return x + multiplier; },
+    "multiply" => func(x) { return x * multiplier; },
+    _ => func(x) { return x; }
+};
+result = operation(5);
+# result = 15
+
+# Returning list of lambdas
+type = "math";
+operations = type switch {
+    "math" => [
+        func(x) { return x + 1; },
+        func(x) { return x * 2; }
+    ],
+    "string" => [
+        func(x) { return x; }
+    ],
+    _ => []
+};
+result = operations[0](5) + operations[1](3);
+# result = 12 (6 + 6)
+
+# Matching on lambda equality
+fn1 = func() { return 1; };
+fn2 = func() { return 2; };
+target = fn1;
+
+result = target switch {
+    fn1 => "First function",
+    fn2 => "Second function",
+    _ => "Unknown function"
+};
+# result = "First function"
+```
+
+### Switch Statements
+
+Traditional C-style switch statements provide control flow with explicit fall-through behavior. Unlike many languages, Betty requires explicit `break` statements to prevent fall-through.
+
+#### Basic Syntax
+
+```python
+switch (expression) {
+    case value1:
+        # statements
+        break;
+    case value2:
+        # statements
+        break;
+    default:
+        # statements
+}
+```
+
+#### Basic Examples
+
+```python
+# Simple switch with breaks
+x = 2;
+switch (x) {
+    case 1:
+        return 10;
+    case 2:
+        return 20;
+    case 3:
+        return 30;
+    default:
+        return 40;
+}
+# Returns 20
+
+# Switch with default case
+x = 5;
+switch (x) {
+    case 1:
+        return 10;
+    case 2:
+        return 20;
+    default:
+        return 40;
+}
+# Returns 40
+```
+
+#### Fall-Through Behavior
+
+Without a `break` statement, execution continues into the next case:
+
+```python
+x = 1;
+switch (x) {
+    case 1:
+        x = 2;
+        # no break - falls through
+    case 2:
+        x = 3;
+        # no break - falls through
+    case 3:
+        x = 4;
+    default:
+        x = 100;
+}
+# x = 100 (all cases executed)
+
+# With break statements
+x = 1;
+switch (x) {
+    case 1:
+        x = 2;
+        break;
+    case 2:
+        x = 3;
+        break;
+    case 3:
+        x = 4;
+        break;
+    default:
+        x = 100;
+}
+# x = 2 (only first case executed)
+```
+
+#### Scoped Case Bodies
+
+Case bodies can be wrapped in braces to create a local scope:
+
+```python
+# Braced case with local scope
+x = 1;
+result = 0;
+switch (x) {
+    case 1: {
+        temp = 100;
+        result = temp;
+        break;
+    }
+    case 2: {
+        temp = 200;
+        result = temp;
+        break;
+    }
+}
+# result = 100
+
+# Mixed braced and unbraced cases
+x = 2;
+result = 0;
+switch (x) {
+    case 1:
+        result = 10;
+        break;
+    case 2: {
+        temp = 15;
+        result = temp + 5;
+        break;
+    }
+    case 3:
+        result = 30;
+        break;
+}
+# result = 20
+```
+
+#### Fall-Through with Shared Scope
+
+When cases fall through without braces, they share the same scope:
+
+```python
+x = 1;
+result = 0;
+switch (x) {
+    case 1:
+        temp = 50;
+        # no break - falls through
+    case 2:
+        result = temp + 10;  # Uses temp from case 1
+        break;
+}
+# result = 60
+```
+
+!!!warning
+    Switch statements in Betty do not automatically break after each case. You must explicitly use `break` to prevent fall-through to the next case. This behavior matches C-style switch statements and allows for intentional fall-through patterns.
+
+!!!note
+    Switch expressions are typically preferred over switch statements when you need to return a value, as they are more concise and expression-oriented. Use switch statements when you need complex control flow with multiple statements per case or when you want to leverage fall-through behavior.
+
 ## `for` / `foreach`
 
 Although a language can do fine with just a while loop, for (and for-each) loops are a staple in C-like languages.
