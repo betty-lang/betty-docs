@@ -27,11 +27,27 @@ Welcome to the Betty programming language documentation. Explore the language th
 
 ## Getting Started
 
-!!!note
-    No binaries are currently supplied for the Betty interpreter. In the future, a GitHub Actions automated workflow for release builds is likely to be set up.
+### Download Pre-built Binaries
 
-Currently, the fastest way to get started with development in Betty is to clone the repo and build the binaries yourself.
+Betty now has automated releases with pre-built binaries for Windows, macOS, and Linux!
 
-```
+**[Download the latest release](https://github.com/betty-lang/betty/releases/latest)** :material-download:
+
+Choose the appropriate binary for your platform:
+
+- **Windows**: `betty-windows-x64.zip`
+- **Linux**: `betty-linux-x64.tar.gz`
+- **macOS (Intel)**: `betty-macos-x64.tar.gz`
+- **macOS (Apple Silicon)**: `betty-macos-arm64.tar.gz`
+
+Extract the archive and add the executable to your PATH.
+
+### Build from Source
+
+Alternatively, you can clone the repo and build the binaries yourself:
+
+```bash
 git clone https://github.com/betty-lang/betty.git
+cd betty
+dotnet build Betty.sln --configuration Release
 ```
