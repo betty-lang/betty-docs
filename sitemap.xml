@@ -2,118 +2,118 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://betty-lang.org/</loc>
-         <lastmod>2025-11-14</lastmod>
+         <lastmod>2025-12-01</lastmod>
     </url>
     <url>
          <loc>https://betty-lang.org/examples/</loc>
-         <lastmod>2025-11-14</lastmod>
+         <lastmod>2025-12-01</lastmod>
     </url>
     <url>
          <loc>https://betty-lang.org/examples/expression-evaluator/</loc>
-         <lastmod>2025-11-14</lastmod>
+         <lastmod>2025-12-01</lastmod>
     </url>
     <url>
          <loc>https://betty-lang.org/reference/</loc>
-         <lastmod>2025-11-14</lastmod>
+         <lastmod>2025-12-01</lastmod>
     </url>
     <url>
          <loc>https://betty-lang.org/reference/data-types/</loc>
-         <lastmod>2025-11-14</lastmod>
+         <lastmod>2025-12-01</lastmod>
     </url>
     <url>
          <loc>https://betty-lang.org/reference/data-types/boolean/</loc>
-         <lastmod>2025-11-14</lastmod>
+         <lastmod>2025-12-01</lastmod>
     </url>
     <url>
          <loc>https://betty-lang.org/reference/data-types/char/</loc>
-         <lastmod>2025-11-14</lastmod>
+         <lastmod>2025-12-01</lastmod>
     </url>
     <url>
          <loc>https://betty-lang.org/reference/data-types/list/</loc>
-         <lastmod>2025-11-14</lastmod>
+         <lastmod>2025-12-01</lastmod>
     </url>
     <url>
          <loc>https://betty-lang.org/reference/data-types/none/</loc>
-         <lastmod>2025-11-14</lastmod>
+         <lastmod>2025-12-01</lastmod>
     </url>
     <url>
          <loc>https://betty-lang.org/reference/data-types/number/</loc>
-         <lastmod>2025-11-14</lastmod>
+         <lastmod>2025-12-01</lastmod>
     </url>
     <url>
          <loc>https://betty-lang.org/reference/data-types/string/</loc>
-         <lastmod>2025-11-14</lastmod>
+         <lastmod>2025-12-01</lastmod>
     </url>
     <url>
          <loc>https://betty-lang.org/reference/keywords/</loc>
-         <lastmod>2025-11-14</lastmod>
+         <lastmod>2025-12-01</lastmod>
     </url>
     <url>
          <loc>https://betty-lang.org/reference/keywords/control-flow/</loc>
-         <lastmod>2025-11-14</lastmod>
+         <lastmod>2025-12-01</lastmod>
     </url>
     <url>
          <loc>https://betty-lang.org/reference/keywords/functions/</loc>
-         <lastmod>2025-11-14</lastmod>
+         <lastmod>2025-12-01</lastmod>
     </url>
     <url>
          <loc>https://betty-lang.org/reference/keywords/variables/</loc>
-         <lastmod>2025-11-14</lastmod>
+         <lastmod>2025-12-01</lastmod>
     </url>
     <url>
          <loc>https://betty-lang.org/reference/operators/</loc>
-         <lastmod>2025-11-14</lastmod>
+         <lastmod>2025-12-01</lastmod>
     </url>
     <url>
          <loc>https://betty-lang.org/reference/operators/arithmetic/</loc>
-         <lastmod>2025-11-14</lastmod>
+         <lastmod>2025-12-01</lastmod>
     </url>
     <url>
          <loc>https://betty-lang.org/reference/operators/assignment/</loc>
-         <lastmod>2025-11-14</lastmod>
+         <lastmod>2025-12-01</lastmod>
     </url>
     <url>
          <loc>https://betty-lang.org/reference/operators/comparative/</loc>
-         <lastmod>2025-11-14</lastmod>
+         <lastmod>2025-12-01</lastmod>
     </url>
     <url>
          <loc>https://betty-lang.org/reference/operators/conditional/</loc>
-         <lastmod>2025-11-14</lastmod>
+         <lastmod>2025-12-01</lastmod>
     </url>
     <url>
          <loc>https://betty-lang.org/reference/operators/logical/</loc>
-         <lastmod>2025-11-14</lastmod>
+         <lastmod>2025-12-01</lastmod>
     </url>
     <url>
          <loc>https://betty-lang.org/reference/operators/special/</loc>
-         <lastmod>2025-11-14</lastmod>
+         <lastmod>2025-12-01</lastmod>
     </url>
     <url>
          <loc>https://betty-lang.org/reference/standard-library/</loc>
-         <lastmod>2025-11-14</lastmod>
+         <lastmod>2025-12-01</lastmod>
     </url>
     <url>
          <loc>https://betty-lang.org/reference/standard-library/char/</loc>
-         <lastmod>2025-11-14</lastmod>
+         <lastmod>2025-12-01</lastmod>
     </url>
     <url>
          <loc>https://betty-lang.org/reference/standard-library/conversion/</loc>
-         <lastmod>2025-11-14</lastmod>
+         <lastmod>2025-12-01</lastmod>
     </url>
     <url>
          <loc>https://betty-lang.org/reference/standard-library/io/</loc>
-         <lastmod>2025-11-14</lastmod>
+         <lastmod>2025-12-01</lastmod>
     </url>
     <url>
          <loc>https://betty-lang.org/reference/standard-library/list/</loc>
-         <lastmod>2025-11-14</lastmod>
+         <lastmod>2025-12-01</lastmod>
     </url>
     <url>
          <loc>https://betty-lang.org/reference/standard-library/math/</loc>
-         <lastmod>2025-11-14</lastmod>
+         <lastmod>2025-12-01</lastmod>
     </url>
     <url>
          <loc>https://betty-lang.org/reference/standard-library/string/</loc>
-         <lastmod>2025-11-14</lastmod>
+         <lastmod>2025-12-01</lastmod>
     </url>
 </urlset>

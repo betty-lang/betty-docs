@@ -392,6 +392,30 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Getting Started">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#download-pre-built-binaries" class="md-nav__link">
+    <span class="md-ellipsis">
+      Download Pre-built Binaries
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#build-from-source" class="md-nav__link">
+    <span class="md-ellipsis">
+      Build from Source
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
     </ul>
@@ -1375,6 +1399,30 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Getting Started">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#download-pre-built-binaries" class="md-nav__link">
+    <span class="md-ellipsis">
+      Download Pre-built Binaries
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#build-from-source" class="md-nav__link">
+    <span class="md-ellipsis">
+      Build from Source
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
     </ul>
@@ -1420,12 +1468,22 @@
 </ul>
 </div>
 <h2 id="getting-started">Getting Started</h2>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>No binaries are currently supplied for the Betty interpreter. In the future, a GitHub Actions automated workflow for release builds is likely to be set up.</p>
-</div>
-<p>Currently, the fastest way to get started with development in Betty is to clone the repo and build the binaries yourself.</p>
-<div class="highlight"><pre><span></span><code>git clone https://github.com/betty-lang/betty.git
+<h3 id="download-pre-built-binaries">Download Pre-built Binaries</h3>
+<p>Betty now has automated releases with pre-built binaries for Windows, macOS, and Linux!</p>
+<p><strong><a href="https://github.com/betty-lang/betty/releases/latest">Download the latest release</a></strong> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7z"/></svg></span></p>
+<p>Choose the appropriate binary for your platform:</p>
+<ul>
+<li><strong>Windows</strong>: <code>betty-windows-x64.zip</code></li>
+<li><strong>Linux</strong>: <code>betty-linux-x64.tar.gz</code></li>
+<li><strong>macOS (Intel)</strong>: <code>betty-macos-x64.tar.gz</code></li>
+<li><strong>macOS (Apple Silicon)</strong>: <code>betty-macos-arm64.tar.gz</code></li>
+</ul>
+<p>Extract the archive and add the executable to your PATH.</p>
+<h3 id="build-from-source">Build from Source</h3>
+<p>Alternatively, you can clone the repo and build the binaries yourself:</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/betty-lang/betty.git
+<span class="nb">cd</span><span class="w"> </span>betty
+dotnet<span class="w"> </span>build<span class="w"> </span>Betty.sln<span class="w"> </span>--configuration<span class="w"> </span>Release
 </code></pre></div>
 
 
